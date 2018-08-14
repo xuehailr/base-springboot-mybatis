@@ -1,0 +1,12 @@
+#database configuration
+spring:
+  datasource:
+    name: xx-sys
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/world
+    username: root
+    password: root123
+
+mybatis:
+  mapperLocations: classpath:com/mapping/*.xml
+#  config-location: classpath:com/mapping/*.xml
